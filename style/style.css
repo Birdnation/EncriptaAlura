@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--color-fondo);
+}
+
+:root {
+    --color-fondo: #F5EDED;
+    --color-texto: #674188;
+    --color-encriptar: #E9ECF8;
+    --color-borde: #000000;
+    --color-desencriptar: #7D8ABC;
+    --color-muñeco: #e4d4e2;
+
+    --fuente-Inter: "Inter", sans-serif;
+}
+
+.texto{
+    color: var(--color-texto);
+}
+
+.mensaje{
+    background-image: url(/assets/muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:  var(--color-muñeco);
+}
+
+textarea{
+    resize: none;
+    margin-top: 1em;
+}
+
